@@ -1,0 +1,1028 @@
+L:00 [00:00:10]: NotUserVisible|Information|System|NA|GeneralMessage|uptime:The system has been running for 21 days 10:01:37.440!The system last started on: Wednesday, January 24, 2018 at 13:58:32!
+L:00 [00:00:10]: NotUserVisible|Information|System|NA|GeneralMessage|uptime:The system has been running for 21 days 10:01:37.367!The system last started on: Wednesday, January 24, 2018 at 13:58:32!
+L:00 [00:00:10]: NotUserVisible|Information|System|NA|GeneralMessage|ramfree:43 percent of memory in use!202825728 total bytes of physical memory!85762048 bytes actually used!117063680 bytes free!0 bytes reclaimable!
+L:00 [00:00:10]: NotUserVisible|Information|System|NA|GeneralMessage|ramfree:42 percent of memory in use!202825728 total bytes of physical memory!84160512 bytes actually used!118665216 bytes free!0 bytes reclaimable!
+L:00 [00:00:10]: NotUserVisible|Information|System|NA|GeneralMessage|ssptasks:!Methods                                             ThreadName                                          Priority        ThreadId     RunTime(ms)!-------                                             ----------                                          --------        --------     -----------!g                                                                                                       MediumPriority  0x0708016A   241!Slot-00                                                                                                 System          0x078B00E2   604!!
+L:00 [00:00:11]: NotUserVisible|Information|System|NA|GeneralMessage|ssptasks:!Methods                                             ThreadName                                          Priority        ThreadId     RunTime(ms)!-------                                             ----------                                          --------        --------     -----------!g                                                                                                       MediumPriority  0x0708016A   241!Slot-00                                                                                                 System          0x078B00E2   607!!
+L:00 [00:00:11]: NotUserVisible|Information|System|NA|GeneralMessage|taskstat:App Name                                  Proc ID      Threads  Heap Total/Used      !NK.EXE                                    0x00400002   102         5129592/3527848   !udevice.exe                               0x02340002   23           356352/306224    !GweUser.exe                               0x05860002   7              8192/4528      !servicesd.exe                             0x04BB001E   16           172032/124944    !CrestronDllLoader.exe                     0x04510066   1              4096/2928      !ConsoleServiceCE.exe                      0x055A006A   37          2507116/2354268   !SystemCommandProcessor.exe                0x05AD00B6   6           1265868/1194332   !CRESLOG.exe                               0x04E7010A   6            159744/142480    !SSHD.exe                                  0x044A0126   2            139264/57408     !TLDM.exe                                  0x05CC0176   13           180252/169116    !RfGateway.exe                             0x042B0332   158          311780/300660    !CIPCommandProcessor.exe                   0x06980002   16          2720132/2654196   !CloudClient.exe                           0x07520022   10          4948372/3708644   !CrestronTimerEventEngine.exe              0x07CB003A   5             45112/44360     !AutoUpdateInterface.exe                   0x06B9004A   13          1597684/1560404   !CustomAppManager.exe                      0x07990066   9           1736948/1676804   !SimplSharpPro.exe                         0x0731009E   47         21147840/20829920  !udevice.exe                               0x0815017A   3             53248/29808     !!
+L:00 [00:00:12]: NotUserVisible|Information|System|NA|GeneralMessage|netstat:Proto  Local Address          Foreign Address        State!UDP    0.0.0.0:137            *:*!UDP    0.0.0.0:138            *:*!UDP    0.0.0.0:500            *:*!UDP    0.0.0.0:4500           *:*!UDP    0.0.0.0:41794          *:*!TCP    0.0.0.0:21             0.0.0.0:0              LISTENING!TCP    0.0.0.0:22             0.0.0.0:0              LISTENING!TCP    0.0.0.0:23             0.0.0.0:0              LISTENING!TCP    0.0.0.0:80             0.0.0.0:0              LISTENING!TCP    0.0.0.0:443            0.0.0.0:0              LISTENING!TCP    0.0.0.0:843            0.0.0.0:0              LISTENING!TCP    0.0.0.0:6510           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6511           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6512           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6513           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6514           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6515           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6516           0.0.0.0:0              LISTENING!TCP    0.0.0.0:41794          0.0.0.0:0              LISTENING!TCP    0.0.0.0:41795          0.0.0.0:0              LISTENING!TCP    0.0.0.0:50000          0.0.0.0:0              LISTENING!TCP    192.168.2.59:41794     192.168.2.108:47240    ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:41579     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:45738     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:47809     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:51401     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:55161     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:56395     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.117:58625    ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.125:53829    ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.129:39236    ESTABLISHED!!
+L:00 [00:00:12]: NotUserVisible|Information|System|NA|GeneralMessage|listenstat:!Port Number    |Max Listeners  |Current Connections!-------------------------------------------------------------!41795          |5              |0              !23             |5              |0              !41794          |252            |1              !843   (App  0) |1              |0     !
+L:00 [00:00:12]: NotUserVisible|Information|System|NA|GeneralMessage|taskstat:App Name                                  Proc ID      Threads  Heap Total/Used      !NK.EXE                                    0x00400002   102         5129592/3527848   !udevice.exe                               0x02340002   23           356352/306224    !GweUser.exe                               0x05860002   7              8192/4528      !servicesd.exe                             0x04BB001E   16           172032/124944    !CrestronDllLoader.exe                     0x04510066   1              4096/2928      !ConsoleServiceCE.exe                      0x055A006A   37          2507116/2354268   !SystemCommandProcessor.exe                0x05AD00B6   6           1265868/1194332   !CRESLOG.exe                               0x04E7010A   6            159744/142480    !SSHD.exe                                  0x044A0126   2            139264/57408     !TLDM.exe                                  0x05CC0176   13           180252/169116    !RfGateway.exe                             0x042B0332   158          311780/300660    !CIPCommandProcessor.exe                   0x06980002   16          2720132/2654196   !CloudClient.exe                           0x07520022   10          4948372/3708644   !CrestronTimerEventEngine.exe              0x07CB003A   5             45112/44360     !AutoUpdateInterface.exe                   0x06B9004A   13          1597684/1560404   !CustomAppManager.exe                      0x07990066   9           1736948/1676804   !SimplSharpPro.exe                         0x0731009E   47         21147840/20829920  !udevice.exe                               0x0815017A   3             53248/29808     !!
+L:00 [00:00:13]: NotUserVisible|Information|System|NA|GeneralMessage|threadpoolinfo:Maximum number of threads: 105!Active threads (Idle or Executing): 2!Waiting Callbacks: 0!Threads currently executing: 1!Max Threads concurrently executed: 4 at 1/24/2018 2:09:01 PM !Methods                                  ThreadPool   ThreadId     ThreadName CurrentProcessTime CallerName | TargetName!g                                        User         0x0708016A   CSTP#1     21.09:52:38.1270031 Worker | Crestron.SimplSharpPro.CrestronThread.UserThreadStartDelegateWrapper!!!
+L:00 [00:00:13]: NotUserVisible|Information|System|NA|GeneralMessage|netstat:Proto  Local Address          Foreign Address        State!UDP    0.0.0.0:137            *:*!UDP    0.0.0.0:138            *:*!UDP    0.0.0.0:500            *:*!UDP    0.0.0.0:4500           *:*!UDP    0.0.0.0:41794          *:*!TCP    0.0.0.0:21             0.0.0.0:0              LISTENING!TCP    0.0.0.0:22             0.0.0.0:0              LISTENING!TCP    0.0.0.0:23             0.0.0.0:0              LISTENING!TCP    0.0.0.0:80             0.0.0.0:0              LISTENING!TCP    0.0.0.0:443            0.0.0.0:0              LISTENING!TCP    0.0.0.0:843            0.0.0.0:0              LISTENING!TCP    0.0.0.0:6510           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6511           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6512           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6513           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6514           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6515           0.0.0.0:0              LISTENING!TCP    0.0.0.0:6516           0.0.0.0:0              LISTENING!TCP    0.0.0.0:41794          0.0.0.0:0              LISTENING!TCP    0.0.0.0:41795          0.0.0.0:0              LISTENING!TCP    0.0.0.0:50000          0.0.0.0:0              LISTENING!TCP    192.168.2.59:41794     192.168.2.108:47240    ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:41579     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:45738     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:47809     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:51401     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:55161     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.65:56395     ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.117:58625    ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.125:53829    ESTABLISHED!TCP    192.168.2.59:50000     192.168.2.129:39236    ESTABLISHED!!
+L:01 [00:00:08]: UserVisible|Information|Lights|Scene|SceneChangedEvent|74|Night|Upstairs Landing|SceneRecalled
+L:00 [00:00:13]: NotUserVisible|Information|System|NA|GeneralMessage|listenstat:!Port Number    |Max Listeners  |Current Connections!-------------------------------------------------------------!41795          |5              |0              !23             |5              |0              !41794          |252            |1              !843   (App  0) |1              |0     !
+L:01 [00:00:13]: UserVisible|Information|System|Event|TimeClockChangedEvent|4|Upstairs Landing Off|Unassigned|EventTriggered
+L:01 [00:00:14]: UserVisible|Information|DoorLock|Device|SignalChangedEventWithStrings|208|Basement Mudroom Door|Basement Mudroom||Lock|ToDevice|
+L:01 [00:00:14]: UserVisible|Information|DoorLock|Scene|SceneChangedEvent|77|Lock Basement Mudroom Door|Basement Mudroom|SceneRecalled
+L:01 [00:00:14]: UserVisible|Information|System|Event|TimeClockChangedEvent|23|Lock Basement Door|Unassigned|EventTriggered
+L:00 [00:00:14]: NotUserVisible|Information|System|NA|GeneralMessage|threadpoolinfo:Maximum number of threads: 105!Active threads (Idle or Executing): 2!Waiting Callbacks: 0!Threads currently executing: 1!Max Threads concurrently executed: 4 at 1/24/2018 2:09:01 PM !Methods                                  ThreadPool   ThreadId     ThreadName CurrentProcessTime CallerName | TargetName!g                                        User         0x0708016A   CSTP#1     21.09:52:39.1321860 Worker | Crestron.SimplSharpPro.CrestronThread.UserThreadStartDelegateWrapper!!!
+L:01 [00:00:14]: NotUserVisible|Information|System|Cloud|GeneralMessage|Started nightlyFwCheckTimer with dueTime 1550000
+L:01 [00:00:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [00:00:14]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [00:00:14]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|19275|19275
+L:01 [00:00:14]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|19275|19275
+L:01 [00:00:14]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|19275|19275
+L:01 [00:25:36]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [00:25:36]: UserVisible|Information|Lights|Scene|SceneChangedEvent|56|All Off|Second Floor Bathroom|SceneRecalled
+L:01 [00:25:36]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|VacancyDetected
+L:01 [00:25:36]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|VacancyDetected
+L:01 [00:25:36]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [00:25:36]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [00:25:36]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [00:25:36]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [00:25:37]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|0
+L:01 [00:25:37]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [00:25:37]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [00:25:40]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [00:26:04]: NotUserVisible|Information|System|Cloud|GeneralMessage|Called ProgramUpdater.CheckFirmwareUpdate()
+L:01 [00:26:10]: UserVisible|Information|System|Cloud|GeneralMessage|Firmware Update: 1.010.0055 available.
+L:01 [00:26:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [00:28:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [00:31:12]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [00:33:33]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [00:36:05]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|70° Fahrenheit|FromDevice|
+L:01 [00:46:45]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [00:46:45]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|OccupancyDetected
+L:01 [00:46:45]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|OccupancyDetected
+L:01 [00:46:49]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [00:47:42]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|0|65535
+L:01 [00:47:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|1
+L:01 [00:47:42]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|0|65535
+L:01 [00:47:42]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [00:47:42]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [00:47:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [00:47:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|1
+L:01 [00:47:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [00:47:43]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [00:47:43]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [00:47:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [00:47:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [00:47:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|15|1
+L:01 [00:47:43]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [00:47:43]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|108|Reading Chip|Master Bed|16|65535
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|108|Reading Chip|Master Bed|5|1
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|108|Reading Chip|Master Bed|6|0
+L:01 [00:50:03]: UserVisible|Information|Lights|Load|LevelChangedEvent|108|Reading Chip|Master Bed|100|65535|0
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|112|Overhead|Master Bed|16|65535
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|112|Overhead|Master Bed|5|1
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|112|Overhead|Master Bed|6|0
+L:01 [00:50:03]: UserVisible|Information|Lights|Load|LevelChangedEvent|112|Overhead|Master Bed|100|65535|0
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|112|Overhead|Master Bed|14|0
+L:01 [00:50:03]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|108|Reading Chip|Master Bed|14|0
+L:01 [00:50:04]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|110|Reading Beth|Master Bed|16|65535
+L:01 [00:50:04]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|110|Reading Beth|Master Bed|5|1
+L:01 [00:50:04]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|110|Reading Beth|Master Bed|6|0
+L:01 [00:50:04]: UserVisible|Information|Lights|Load|LevelChangedEvent|110|Reading Beth|Master Bed|100|65535|0
+L:01 [00:50:04]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|110|Reading Beth|Master Bed|14|0
+L:01 [00:50:04]: UserVisible|Information|Lights|Device|SignalChangedEvent|108|Reading Chip|Master Bed|13|0
+L:01 [00:50:04]: UserVisible|Information|Lights|Device|SignalChangedEvent|112|Overhead|Master Bed|13|0
+L:01 [00:50:04]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|108|Reading Chip|Master Bed|-1|0|0
+L:01 [00:50:04]: UserVisible|Information|Lights|Load|LevelChangedEvent|108|Reading Chip|Master Bed|-1|0|0
+L:01 [00:50:04]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|112|Overhead|Master Bed|-1|0|0
+L:01 [00:50:04]: UserVisible|Information|Lights|Load|LevelChangedEvent|112|Overhead|Master Bed|-1|0|0
+L:01 [00:50:05]: UserVisible|Information|Lights|Device|SignalChangedEvent|110|Reading Beth|Master Bed|13|0
+L:01 [00:50:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|110|Reading Beth|Master Bed|-1|0|0
+L:01 [00:50:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|110|Reading Beth|Master Bed|-1|0|0
+L:01 [00:50:12]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|65535
+L:01 [00:50:12]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|5|1
+L:01 [00:50:12]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|6|0
+L:01 [00:50:12]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [00:50:12]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [00:50:12]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|0
+L:01 [00:50:12]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|6|0
+L:01 [00:50:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [00:50:13]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|0
+L:01 [00:50:13]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [00:50:13]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [00:52:26]: UserVisible|Information|Lights|Scene|SceneChangedEvent|62|All Off|Alex's bedroom|SceneRecalled
+L:01 [00:52:26]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Alex Lights Off|Rack Room|Alex Lights Off|Pressed
+L:01 [00:52:26]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Alex Lights Off|Alex Lights Off|Rack Room| set to True
+L:01 [00:52:26]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|100|35723|0
+L:01 [00:52:27]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|0|0
+L:01 [00:52:27]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Alex Lights Off|Rack Room|Alex Lights Off|Tapped
+L:01 [00:52:27]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Alex Lights Off|Rack Room|Alex Lights Off|Released
+L:01 [00:52:27]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Alex Lights Off|Alex Lights Off|Rack Room| set to False
+L:01 [00:52:27]: UserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|13|0
+L:01 [00:52:27]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|0|0
+L:01 [00:52:27]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|0|0
+L:01 [00:54:30]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|HeldReleased
+L:01 [00:54:30]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|Released
+L:01 [00:54:30]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 2|Dummy 2|Rack Room| set to False
+L:01 [00:56:08]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [01:01:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|62|Overhead Light|First Floor Mudroom|-1|0|0
+L:01 [01:01:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|58|Window Lights|First Floor Mudroom|-1|0|0
+L:01 [01:01:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|54|Right Overhead Light|First Floor Hallway|-1|0|0
+L:01 [01:01:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|39|Overhead Light|Office First Floor|-1|0|0
+L:01 [01:01:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|73|Perimeter Lights|Family Room|-1|0|0
+L:01 [01:01:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|75|Center Light|Family Room|-1|0|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|54|Right Overhead Light|First Floor Hallway|-1|0|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|54|Right Overhead Light|First Floor Hallway|-1|0|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|58|Window Lights|First Floor Mudroom|-1|0|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|58|Window Lights|First Floor Mudroom|-1|0|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|62|Overhead Light|First Floor Mudroom|-1|0|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|62|Overhead Light|First Floor Mudroom|-1|0|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Device|SignalChangedEvent|3|Door Light|Basement Mudroom|13|0
+L:01 [01:01:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|75|Center Light|Family Room|-1|0|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|75|Center Light|Family Room|-1|0|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|73|Perimeter Lights|Family Room|-1|0|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|73|Perimeter Lights|Family Room|-1|0|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|39|Overhead Light|Office First Floor|-1|0|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|39|Overhead Light|Office First Floor|-1|0|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Device|SignalChangedEvent|54|Right Overhead Light|First Floor Hallway|13|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|54|Right Overhead Light|First Floor Hallway|14|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Device|SignalChangedEvent|58|Window Lights|First Floor Mudroom|13|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|15|Shower Light|Basement Bathroom|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|11|Overhead Light|Basement Bathroom|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|27|Closet Light|Basement Rec Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|21|Couch Light|Basement Rec Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|19|Foosball Lights|Basement Rec Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|23|TV Lights|Basement Rec Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|17|Overhead Lights|Basement Rec Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|18247|18247
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|58|Window Lights|First Floor Mudroom|14|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Device|SignalChangedEvent|62|Overhead Light|First Floor Mudroom|13|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|62|Overhead Light|First Floor Mudroom|14|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Device|SignalChangedEvent|75|Center Light|Family Room|13|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|75|Center Light|Family Room|14|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Device|SignalChangedEvent|73|Perimeter Lights|Family Room|13|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|73|Perimeter Lights|Family Room|14|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Device|SignalChangedEvent|39|Overhead Light|Office First Floor|13|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|39|Overhead Light|Office First Floor|14|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|18247|18247
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|18247|18247
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|37|Perimeter|Billiards Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|35|Overhead|Billiards Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|29|Pathway Light|Basement Stairs|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|7|Overhead Light|Basement Mudroom|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|5|Bar Light|Basement Mudroom|-1|0|0
+L:01 [01:01:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|88|Sink|Kitchen|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|92|Overhead|Kitchen|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|94|Desk|Kitchen|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|90|Counter|Kitchen|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|86|Island|Kitchen|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|84|Cove Lights|Great Room|-1|0|0
+L:01 [01:01:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|82|Chandelier|Great Room|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|133|Overhead|Office Second Floor|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|52|Overhead Light|Library|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|77|Overhead Bottom Lights|Great Room|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|79|Overhead Top Lights|Great Room|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|66|Foyer Light|Foyer|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|50|Center Overhead Light|First Floor Hallway|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [01:01:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [01:01:07]: UserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [01:01:07]: UserVisible|Information|Lights|Scene|SceneChangedEvent|73|Night|Whole House|SceneRecalled
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|49|Left Overhead Light|First Floor Hallway|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|64|Chandelier|Dining Room|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|34|Kitchen Pantry|Kitchen|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|71|Foyer Sconce|Foyer|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|143|Dinette|Kitchen|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|159|Screen Lights|Theater|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|164|Cove|Theater|-1|0|0
+L:01 [01:01:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|161|Perimeter|Theater|-1|0|0
+L:01 [01:01:08]: UserVisible|Information|Lights|Device|SignalChangedEvent|147|Side Yard|Back Yard|13|0
+L:01 [01:01:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|0|0
+L:01 [01:01:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|0|0
+L:01 [01:01:08]: UserVisible|Information|Lights|Device|SignalChangedEvent|56|Front Porch Light|Front Yard|13|0
+L:01 [01:01:08]: UserVisible|Information|Lights|Device|SignalChangedEvent|68|Front Door Scones|Front Yard|13|0
+L:01 [01:01:08]: UserVisible|Information|Lights|Device|SignalChangedEvent|60|Mudroom Door Sconce|Front Yard|13|0
+L:01 [01:01:08]: UserVisible|Information|Lights|Scene|SceneChangedEvent|111|Outside All Off|Whole House|SceneRecalled
+L:01 [01:01:08]: UserVisible|Information|System|Event|TimeClockChangedEvent|1|Night Off|Unassigned|EventTriggered
+L:01 [01:16:45]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [01:16:46]: UserVisible|Information|Lights|Scene|SceneChangedEvent|56|All Off|Second Floor Bathroom|SceneRecalled
+L:01 [01:16:46]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|VacancyDetected
+L:01 [01:16:46]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|VacancyDetected
+L:01 [01:16:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|65535|0
+L:01 [01:16:46]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [01:16:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [01:16:47]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [01:16:47]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [01:16:47]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|0
+L:01 [01:16:49]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [01:30:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [01:30:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [01:30:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|19275|19275
+L:01 [01:30:05]: UserVisible|Information|Lights|Scene|SceneChangedEvent|74|Night|Upstairs Landing|SceneRecalled
+L:01 [01:30:05]: UserVisible|Information|System|Event|TimeClockChangedEvent|5|Upstairs Landing Off 2|Unassigned|EventTriggered
+L:01 [01:30:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|19275|19275
+L:01 [01:30:05]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|19275|19275
+L:01 [02:00:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|15|Shower Light|Basement Bathroom|-1|0|0
+L:01 [02:00:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|11|Overhead Light|Basement Bathroom|-1|0|0
+L:01 [02:00:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|27|Closet Light|Basement Rec Room|-1|0|0
+L:01 [02:00:05]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|21|Couch Light|Basement Rec Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|19|Foosball Lights|Basement Rec Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|23|TV Lights|Basement Rec Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|17|Overhead Lights|Basement Rec Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|18247|18247
+L:01 [02:00:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|18247|18247
+L:01 [02:00:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|18247|18247
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|37|Perimeter|Billiards Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|35|Overhead|Billiards Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|29|Pathway Light|Basement Stairs|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|7|Overhead Light|Basement Mudroom|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|5|Bar Light|Basement Mudroom|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|88|Sink|Kitchen|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|92|Overhead|Kitchen|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|94|Desk|Kitchen|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|90|Counter|Kitchen|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|133|Overhead|Office Second Floor|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|39|Overhead Light|Office First Floor|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|73|Perimeter Lights|Family Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|75|Center Light|Family Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|52|Overhead Light|Library|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|86|Island|Kitchen|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|84|Cove Lights|Great Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|82|Chandelier|Great Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|77|Overhead Bottom Lights|Great Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|79|Overhead Top Lights|Great Room|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|66|Foyer Light|Foyer|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|62|Overhead Light|First Floor Mudroom|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|58|Window Lights|First Floor Mudroom|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|54|Right Overhead Light|First Floor Hallway|-1|0|0
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|50|Center Overhead Light|First Floor Hallway|-1|0|0
+L:01 [02:00:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [02:00:06]: UserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [02:00:06]: UserVisible|Information|Lights|Scene|SceneChangedEvent|73|Night|Whole House|SceneRecalled
+L:01 [02:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|49|Left Overhead Light|First Floor Hallway|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|64|Chandelier|Dining Room|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|34|Kitchen Pantry|Kitchen|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|71|Foyer Sconce|Foyer|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|143|Dinette|Kitchen|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|159|Screen Lights|Theater|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|164|Cove|Theater|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|161|Perimeter|Theater|-1|0|0
+L:01 [02:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|0|0
+L:01 [02:00:07]: UserVisible|Information|Lights|Scene|SceneChangedEvent|111|Outside All Off|Whole House|SceneRecalled
+L:01 [02:00:07]: UserVisible|Information|System|Event|TimeClockChangedEvent|6|Night Off #2|Unassigned|EventTriggered
+L:01 [02:00:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [02:02:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [02:08:29]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [02:34:47]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [02:53:34]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [02:55:34]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [02:55:35]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [02:58:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [03:00:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [04:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|0|0
+L:01 [04:00:06]: UserVisible|Information|Lights|Scene|SceneChangedEvent|111|Outside All Off|Whole House|SceneRecalled
+L:01 [04:00:06]: UserVisible|Information|System|Event|TimeClockChangedEvent|3|Outside Off|Unassigned|EventTriggered
+L:01 [04:06:28]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|68° Fahrenheit|FromDevice|
+L:01 [04:08:28]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [04:12:51]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|68° Fahrenheit|FromDevice|
+L:01 [04:17:58]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [04:19:58]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|68° Fahrenheit|FromDevice|
+L:01 [04:21:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [04:23:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|68° Fahrenheit|FromDevice|
+L:01 [04:25:44]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|171|3rd Car Garage Sensor|Garage|6|1800
+L:01 [04:25:48]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|171|3rd Car Garage Sensor|Garage|6|1800
+L:01 [04:47:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|68° Fahrenheit|FromDevice|
+L:01 [04:49:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [04:49:36]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|68° Fahrenheit|FromDevice|
+L:01 [04:51:36]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [04:52:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|68° Fahrenheit|FromDevice|
+L:01 [05:00:06]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Scheduled Setpoints|Heat = 71° Fahrenheit, Cool = 75° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [05:00:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|"Wake" Event|Heat Setpoint 71° Fahrenheit, Cool Setpoint 75° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [05:00:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [05:05:19]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [05:13:12]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [05:20:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [05:23:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [05:36:02]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [05:38:03]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [05:40:03]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [05:43:50]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [05:49:42]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|68° Fahrenheit|FromDevice|
+L:01 [05:51:42]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [05:52:58]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|68° Fahrenheit|FromDevice|
+L:01 [05:54:58]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [05:54:59]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|68° Fahrenheit|FromDevice|
+L:01 [05:58:21]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [06:00:07]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Scheduled Setpoints|Heat = 71° Fahrenheit, Cool = 75° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [06:00:07]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|"Wake" Event|Heat Setpoint 71° Fahrenheit, Cool Setpoint 75° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [06:00:07]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Scheduled Setpoints|Heat = 71° Fahrenheit, Cool = 74° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [06:00:07]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|"Wake" Event|Heat Setpoint 71° Fahrenheit, Cool Setpoint 74° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [06:00:07]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Active|FromDevice|
+L:01 [06:00:07]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [06:00:21]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|68° Fahrenheit|FromDevice|
+L:01 [06:04:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [06:04:44]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [06:07:15]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [06:09:15]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [06:11:42]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [06:17:43]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [06:17:55]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [06:32:46]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [06:38:44]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [06:38:49]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|71° Fahrenheit|FromDevice|
+L:01 [06:40:10]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|70° Fahrenheit|FromDevice|
+L:01 [06:43:46]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [06:56:52]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [07:00:43]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [07:01:04]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 3|Rack Room|Dummy 3|Pressed
+L:01 [07:01:04]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 3|Dummy 3|Rack Room| set to True
+L:01 [07:01:04]: UserVisible|Information|Lights|Scene|SceneChangedEvent|80|Mornifng Sconce Motion On|Upstairs Landing|SceneRecalled
+L:01 [07:01:04]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Morning|Rack Room|Second Floor Motion Morning|Pressed
+L:01 [07:01:04]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Morning|Second Floor Motion Morning|Rack Room| set to True
+L:01 [07:01:04]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Morning|Rack Room|Second Floor Motion Morning|Tapped
+L:01 [07:01:04]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Morning|Rack Room|Second Floor Motion Morning|Released
+L:01 [07:01:04]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Morning|Second Floor Motion Morning|Rack Room| set to False
+L:01 [07:01:04]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [07:01:04]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [07:01:04]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|22616|22616
+L:01 [07:01:04]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|22616|22616
+L:01 [07:01:04]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|22616|22616
+L:01 [07:01:04]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 3|Rack Room|Dummy 3|Held
+L:01 [07:01:09]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [07:01:09]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|OccupancyDetected
+L:01 [07:01:09]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|OccupancyDetected
+L:01 [07:01:13]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [07:01:45]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [07:01:45]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [07:01:45]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [07:04:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|42|Fan|First Floor Bathroom|0|Pressed
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|0|Pressed
+L:01 [07:06:21]: UserVisible|Information|Lights|Scene|SceneChangedEvent|19|All On|First Floor Bathroom|SceneRecalled
+L:01 [07:06:21]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [07:06:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|100|0|65535
+L:01 [07:06:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|100|0|65535
+L:01 [07:06:21]: UserVisible|Information|Lights|Device|SignalChangedEvent|41|Fan|First Floor Bathroom|13|1
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|42|Fan|First Floor Bathroom|0|Released
+L:01 [07:06:21]: UserVisible|Information|Lights|Device|SignalChangedEvent|43|Overhead|First Floor Bathroom|13|1
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|42|Fan|First Floor Bathroom|0|Tapped
+L:01 [07:06:21]: UserVisible|Information|Lights|Device|SignalChangedEvent|45|Shower|First Floor Bathroom|13|1
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|0|Released
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|0|Tapped
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|42|Fan|First Floor Bathroom|0|Pressed
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|0|Pressed
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|42|Fan|First Floor Bathroom|0|Released
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|0|Released
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|42|Fan|First Floor Bathroom|0|DoubleTapped
+L:01 [07:06:21]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|0|DoubleTapped
+L:01 [07:06:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|150|36437|65535
+L:01 [07:06:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|25|36824|65535
+L:01 [07:06:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|25|34536|65535
+L:01 [07:06:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|5|36824|65535
+L:01 [07:06:21]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|-1|65535|65535
+L:01 [07:06:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|-1|65535|65535
+L:01 [07:06:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|43|Overhead|First Floor Bathroom|14|0
+L:01 [07:06:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|43|Overhead|First Floor Bathroom|15|1
+L:01 [07:06:22]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|45|Shower|First Floor Bathroom|14|0
+L:01 [07:06:22]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|45|Shower|First Floor Bathroom|15|1
+L:01 [07:06:22]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|-1|65535|65535
+L:01 [07:06:22]: UserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|-1|65535|65535
+L:01 [07:17:25]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|1|Pressed
+L:01 [07:17:25]: UserVisible|Information|Lights|Scene|SceneChangedEvent|20|All Off|First Floor Bathroom|SceneRecalled
+L:01 [07:17:25]: UserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|100|65535|0
+L:01 [07:17:25]: UserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|100|65535|0
+L:01 [07:17:25]: UserVisible|Information|Lights|Device|SignalChangedEvent|41|Fan|First Floor Bathroom|13|0
+L:01 [07:17:25]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|43|Overhead|First Floor Bathroom|14|0
+L:01 [07:17:25]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|1|Released
+L:01 [07:17:25]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|44|Overhead|First Floor Bathroom|1|Tapped
+L:01 [07:17:25]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|45|Shower|First Floor Bathroom|14|0
+L:01 [07:17:26]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|-1|0|0
+L:01 [07:17:26]: UserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|-1|0|0
+L:01 [07:17:26]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|-1|0|0
+L:01 [07:17:26]: UserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|-1|0|0
+L:01 [07:17:26]: UserVisible|Information|Lights|Device|SignalChangedEvent|43|Overhead|First Floor Bathroom|13|0
+L:01 [07:17:26]: UserVisible|Information|Lights|Device|SignalChangedEvent|45|Shower|First Floor Bathroom|13|0
+L:01 [07:17:56]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|0
+L:01 [07:17:56]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|0|65535
+L:01 [07:17:56]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|1
+L:01 [07:17:56]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|0|65535
+L:01 [07:17:56]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|1
+L:01 [07:17:56]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [07:17:56]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [07:17:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [07:17:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [07:17:57]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [07:17:57]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [07:17:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [07:17:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|15|1
+L:01 [07:17:57]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [07:17:57]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [07:19:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|65535
+L:01 [07:19:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|5|1
+L:01 [07:19:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|6|0
+L:01 [07:19:21]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [07:19:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|0
+L:01 [07:19:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|6|0
+L:01 [07:19:21]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [07:19:21]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [07:19:22]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|0
+L:01 [07:19:22]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [07:19:22]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [07:19:26]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|100|0|35723
+L:01 [07:19:26]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|16|0
+L:01 [07:19:26]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|100|0|65535
+L:01 [07:19:26]: UserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|13|1
+L:01 [07:19:26]: UserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|13|1
+L:01 [07:19:27]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|15|1
+L:01 [07:19:27]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|35723|35723
+L:01 [07:19:27]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|35723|35723
+L:01 [07:19:27]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|14|0
+L:01 [07:19:27]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|15|1
+L:01 [07:19:27]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|65535|65535
+L:01 [07:19:27]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|65535|65535
+L:01 [07:28:25]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [07:29:52]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|71° Fahrenheit|FromDevice|
+L:01 [07:32:17]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [07:47:53]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [07:47:53]: UserVisible|Information|Lights|Scene|SceneChangedEvent|56|All Off|Second Floor Bathroom|SceneRecalled
+L:01 [07:47:53]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|VacancyDetected
+L:01 [07:47:53]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|VacancyDetected
+L:01 [07:47:53]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|65535|0
+L:01 [07:47:53]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [07:47:53]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [07:47:54]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [07:47:54]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [07:47:54]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|0
+L:01 [07:47:57]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [07:50:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [07:51:19]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Inactive|FromDevice|
+L:01 [07:55:57]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [08:00:06]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 3|Rack Room|Dummy 3|HeldReleased
+L:01 [08:00:06]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 3|Rack Room|Dummy 3|Released
+L:01 [08:00:06]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 3|Dummy 3|Rack Room| set to False
+L:01 [08:00:06]: UserVisible|Information|Lights|Scene|SceneChangedEvent|78|Daytime Sconce Motion On|Upstairs Landing|SceneRecalled
+L:01 [08:00:06]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Pressed
+L:01 [08:00:06]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Daytime|Second Floor Motion Daytime|Rack Room| set to True
+L:01 [08:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [08:00:06]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [08:00:06]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Pressed
+L:01 [08:00:06]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 1|Dummy 1|Rack Room| set to True
+L:01 [08:00:07]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Released
+L:01 [08:00:07]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Daytime|Second Floor Motion Daytime|Rack Room| set to False
+L:01 [08:00:07]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|39321|39321
+L:01 [08:00:07]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|39321|39321
+L:01 [08:00:07]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|39321|39321
+L:01 [08:00:07]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Held
+L:01 [08:00:07]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Held
+L:01 [08:03:51]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [08:06:54]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Active|FromDevice|
+L:01 [08:11:25]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [08:20:39]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Inactive|FromDevice|
+L:01 [08:26:15]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [08:31:12]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [08:41:36]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Active|FromDevice|
+L:01 [08:48:05]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [08:49:40]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [08:53:41]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [08:55:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [08:56:51]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Inactive|FromDevice|
+L:01 [09:00:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|100|39321|0
+L:01 [09:00:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|100|35723|0
+L:01 [09:00:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|100|65535|0
+L:01 [09:00:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|2|Patio|Back Yard|100|65535|0
+L:01 [09:00:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|217|Floor lamp|Office First Floor|100|65535|0
+L:01 [09:00:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|14|0
+L:01 [09:00:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|2|Patio|Back Yard|14|0
+L:01 [09:00:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|19|Foosball Lights|Basement Rec Room|-1|0|0
+L:01 [09:00:08]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|23|TV Lights|Basement Rec Room|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|17|Overhead Lights|Basement Rec Room|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|15|Shower Light|Basement Bathroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|11|Overhead Light|Basement Bathroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|21|Couch Light|Basement Rec Room|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|7|Overhead Light|Basement Mudroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|5|Bar Light|Basement Mudroom|-1|0|0
+L:01 [09:00:09]: UserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [09:00:09]: UserVisible|Information|Lights|Load|LevelChangedEvent|9|Under Bar Light|Basement Mudroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|66|Foyer Light|Foyer|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|62|Overhead Light|First Floor Mudroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|58|Window Lights|First Floor Mudroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|0|0
+L:01 [09:00:09]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|2|Patio|Back Yard|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|88|Sink|Kitchen|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|92|Overhead|Kitchen|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|94|Desk|Kitchen|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|90|Counter|Kitchen|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|86|Island|Kitchen|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|84|Cove Lights|Great Room|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|112|Overhead|Master Bed|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [09:00:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|110|Reading Beth|Master Bed|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|217|Floor lamp|Office First Floor|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|35|Overhead|Billiards Room|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|37|Perimeter|Billiards Room|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|141|Lamp|Madis Bedroom|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|135|Overhead|Madis Bedroom|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|45|Shower|First Floor Bathroom|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|43|Overhead|First Floor Bathroom|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|133|Overhead|Office Second Floor|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [09:00:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|217|Floor lamp|Office First Floor|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|108|Reading Chip|Master Bed|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|106|Overhead|Master Walk In Closet|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|99|Shower|Master Bath|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|104|Sink|Master Bath|-1|0|0
+L:01 [09:00:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|100|Overhead|Master Bath|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|82|Chandelier|Great Room|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|77|Overhead Bottom Lights|Great Room|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|79|Overhead Top Lights|Great Room|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|73|Perimeter Lights|Family Room|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|75|Center Light|Family Room|-1|0|0
+L:01 [09:00:11]: UserVisible|Information|Lights|Load|LevelChangedEvent|2|Patio|Back Yard|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|143|Dinette|Kitchen|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|159|Screen Lights|Theater|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|164|Cove|Theater|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|161|Perimeter|Theater|-1|0|0
+L:01 [09:00:11]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|34|Kitchen Pantry|Kitchen|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|71|Foyer Sconce|Foyer|-1|0|0
+L:01 [09:00:11]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|54|Right Overhead Light|First Floor Hallway|-1|0|0
+L:01 [09:00:11]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|52|Overhead Light|Library|-1|0|0
+L:01 [09:00:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|50|Center Overhead Light|First Floor Hallway|-1|0|0
+L:01 [09:00:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|49|Left Overhead Light|First Floor Hallway|-1|0|0
+L:01 [09:00:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|39|Overhead Light|Office First Floor|-1|0|0
+L:01 [09:00:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|29|Pathway Light|Basement Stairs|-1|0|0
+L:01 [09:00:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|27|Closet Light|Basement Rec Room|-1|0|0
+L:01 [09:00:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|118|Sconces|Upstairs Landing|13|0
+L:01 [09:00:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|13|0
+L:01 [09:00:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|13|0
+L:01 [09:00:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|2|Patio|Back Yard|13|0
+L:01 [09:00:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|217|Floor lamp|Office First Floor|13|0
+L:01 [09:00:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|64|Chandelier|Dining Room|-1|0|0
+L:01 [09:00:12]: UserVisible|Information|Lights|Scene|SceneChangedEvent|2|All Off|Whole House|SceneRecalled
+L:01 [09:00:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|205|Main Garage Overhead|Garage|-1|0|0
+L:01 [09:00:12]: UserVisible|Information|System|Event|TimeClockChangedEvent|2|Morning Off|Unassigned|EventTriggered
+L:01 [09:00:12]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Scheduled Setpoints|Heat = 68° Fahrenheit, Cool = 74° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [09:00:12]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|"Leave" Event|Heat Setpoint 68° Fahrenheit, Cool Setpoint 74° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [09:00:12]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Scheduled Setpoints|Heat = 68° Fahrenheit, Cool = 74° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [09:00:13]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|"Leave" Event|Heat Setpoint 68° Fahrenheit, Cool Setpoint 74° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [09:00:13]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Scheduled Setpoints|Heat = 68° Fahrenheit, Cool = 74° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [09:00:13]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|"Leave" Event|Heat Setpoint 68° Fahrenheit, Cool Setpoint 74° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [09:00:13]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|146|Patio Door (upper)|Back Yard|-1|0|0
+L:01 [09:00:13]: UserVisible|Information|Lights|Load|LevelChangedEvent|205|Main Garage Overhead|Garage|-1|0|0
+L:01 [09:00:13]: UserVisible|Information|Lights|Load|LevelChangedEvent|205|Main Garage Overhead|Garage|-1|0|0
+L:01 [09:23:27]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [09:25:27]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [09:26:18]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [09:34:29]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|70° Fahrenheit|FromDevice|
+L:01 [09:49:44]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [09:52:46]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|71° Fahrenheit|FromDevice|
+L:01 [09:54:46]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [10:49:09]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [10:52:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [10:54:06]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|69° Fahrenheit|FromDevice|
+L:01 [12:38:29]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [12:40:54]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|70° Fahrenheit|FromDevice|
+L:01 [12:42:54]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [12:43:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|70° Fahrenheit|FromDevice|
+L:01 [12:45:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [12:45:21]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|70° Fahrenheit|FromDevice|
+L:01 [12:47:42]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|69° Fahrenheit|FromDevice|
+L:01 [13:22:07]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|114|Theater Occ Sensor|Basement Rec Room|6|1800
+L:01 [13:22:11]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|114|Theater Occ Sensor|Basement Rec Room|6|1800
+L:01 [13:24:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [13:26:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [13:31:07]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [13:33:07]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [13:33:39]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [13:35:45]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [13:37:45]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [13:48:15]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [13:50:15]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|69° Fahrenheit|FromDevice|
+L:01 [14:00:00]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Scheduled Setpoints|Heat = 71° Fahrenheit, Cool = 74° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [14:00:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|"Return" Event|Heat Setpoint 71° Fahrenheit, Cool Setpoint 74° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [14:00:00]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Scheduled Setpoints|Heat = 71° Fahrenheit, Cool = 74° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [14:00:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|"Return" Event|Heat Setpoint 71° Fahrenheit, Cool Setpoint 74° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [14:00:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Active|FromDevice|
+L:01 [14:00:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [14:04:17]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [14:10:03]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|70° Fahrenheit|FromDevice|
+L:01 [14:19:33]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|71° Fahrenheit|FromDevice|
+L:01 [14:24:41]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [14:25:33]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Temperature|71° Fahrenheit|FromDevice|
+L:01 [14:34:46]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Inactive|FromDevice|
+L:01 [14:55:09]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [14:55:14]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [14:55:14]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|OccupancyDetected
+L:01 [14:55:14]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|OccupancyDetected
+L:01 [14:55:16]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|0
+L:01 [14:55:16]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|0|65535
+L:01 [14:55:16]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|1
+L:01 [14:55:16]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [14:55:16]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [14:55:16]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [14:55:16]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|0|65535
+L:01 [14:55:16]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|1
+L:01 [14:55:17]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [14:55:17]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [14:55:17]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [14:55:17]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [14:55:17]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [14:55:17]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|15|1
+L:01 [14:55:17]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [14:55:17]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [14:55:18]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [15:00:00]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Scheduled Setpoints|Heat = 71° Fahrenheit, Cool = 74° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [15:00:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|"Return" Event|Heat Setpoint 71° Fahrenheit, Cool Setpoint 74° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [15:00:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [15:02:22]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [15:06:48]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [15:13:01]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [15:14:51]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [15:16:10]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|93|Overhead na|Kitchen|0|Pressed
+L:01 [15:16:10]: UserVisible|Information|Lights|Scene|SceneChangedEvent|89|Kitchen Only On|Kitchen|SceneRecalled
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|88|Sink|Kitchen|-1|65535|65535
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|92|Overhead|Kitchen|-1|65535|65535
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|94|Desk|Kitchen|-1|65535|65535
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|90|Counter|Kitchen|-1|65535|65535
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|86|Island|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|86|Island|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|86|Island|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|90|Counter|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|90|Counter|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|94|Desk|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|94|Desk|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|92|Overhead|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|92|Overhead|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|88|Sink|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Load|LevelChangedEvent|88|Sink|Kitchen|-1|65535|65535
+L:01 [15:16:10]: UserVisible|Information|Lights|Device|SignalChangedEvent|86|Island|Kitchen|13|1
+L:01 [15:16:10]: UserVisible|Information|Lights|Device|SignalChangedEvent|90|Counter|Kitchen|13|1
+L:01 [15:16:10]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|93|Overhead na|Kitchen|0|Released
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|86|Island|Kitchen|14|0
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|86|Island|Kitchen|15|1
+L:01 [15:16:10]: UserVisible|Information|Lights|Device|SignalChangedEvent|94|Desk|Kitchen|13|1
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|90|Counter|Kitchen|14|0
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|90|Counter|Kitchen|15|1
+L:01 [15:16:10]: UserVisible|Information|Lights|Device|SignalChangedEvent|92|Overhead|Kitchen|13|1
+L:01 [15:16:10]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|93|Overhead na|Kitchen|0|Tapped
+L:01 [15:16:10]: UserVisible|Information|Lights|Device|SignalChangedEvent|88|Sink|Kitchen|13|1
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|92|Overhead|Kitchen|14|0
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|92|Overhead|Kitchen|15|1
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|94|Desk|Kitchen|14|0
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|94|Desk|Kitchen|15|1
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|88|Sink|Kitchen|14|0
+L:01 [15:16:10]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|88|Sink|Kitchen|15|1
+L:01 [15:37:16]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [15:42:08]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [15:43:47]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Active|FromDevice|
+L:01 [15:45:11]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [15:45:11]: UserVisible|Information|Lights|Scene|SceneChangedEvent|56|All Off|Second Floor Bathroom|SceneRecalled
+L:01 [15:45:11]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|VacancyDetected
+L:01 [15:45:11]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|VacancyDetected
+L:01 [15:45:11]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [15:45:11]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|65535|0
+L:01 [15:45:11]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [15:45:11]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [15:45:11]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [15:45:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [15:45:12]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [15:45:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [15:45:12]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [15:45:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|0
+L:01 [15:45:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|0
+L:01 [15:45:15]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [15:45:56]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [15:47:40]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [15:47:40]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|OccupancyDetected
+L:01 [15:47:40]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|OccupancyDetected
+L:01 [15:47:44]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [15:47:45]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|100|0|35723
+L:01 [15:47:45]: UserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|13|1
+L:01 [15:47:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|100|0|65535
+L:01 [15:47:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|11|1
+L:01 [15:47:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|6|9180|65535
+L:01 [15:47:46]: UserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|13|1
+L:01 [15:47:46]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|65535|65535
+L:01 [15:47:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|65535|65535
+L:01 [15:47:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|11|1
+L:01 [15:47:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|6|7274|65535
+L:01 [15:47:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|14|0
+L:01 [15:47:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|65535|65535
+L:01 [15:47:46]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|65535|65535
+L:01 [15:47:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|14|0
+L:01 [15:47:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|15|1
+L:01 [15:48:59]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|0|65535
+L:01 [15:48:59]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|1
+L:01 [15:48:59]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|0|65535
+L:01 [15:48:59]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [15:48:59]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [15:48:59]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [15:48:59]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|1
+L:01 [15:49:00]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [15:49:01]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [15:49:01]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [15:49:01]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [15:49:01]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [15:49:01]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [15:49:01]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [15:49:01]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|15|1
+L:01 [15:53:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [15:54:56]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Inactive|FromDevice|
+L:01 [15:58:19]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|HeldReleased
+L:01 [15:58:19]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Released
+L:01 [15:58:19]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 1|Dummy 1|Rack Room| set to False
+L:01 [16:17:42]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [16:17:42]: UserVisible|Information|Lights|Scene|SceneChangedEvent|56|All Off|Second Floor Bathroom|SceneRecalled
+L:01 [16:17:42]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|VacancyDetected
+L:01 [16:17:42]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|VacancyDetected
+L:01 [16:17:42]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [16:17:42]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|65535|0
+L:01 [16:17:42]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [16:17:42]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [16:17:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [16:17:43]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|0
+L:01 [16:17:43]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [16:17:43]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [16:17:43]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [16:17:43]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [16:17:43]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|0
+L:01 [16:17:45]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [16:25:02]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [16:29:54]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [17:00:01]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|14135|14135
+L:01 [17:00:01]: UserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|14135|14135
+L:01 [17:00:01]: UserVisible|Information|Lights|Load|LevelChangedEvent|56|Front Porch Light|Front Yard|-1|14135|14135
+L:01 [17:00:01]: UserVisible|Information|Lights|Device|SignalChangedEvent|56|Front Porch Light|Front Yard|13|1
+L:01 [17:00:01]: UserVisible|Information|Lights|Device|SignalChangedEvent|68|Front Door Scones|Front Yard|13|1
+L:01 [17:00:01]: UserVisible|Information|Lights|Scene|SceneChangedEvent|90|Sunset|Front Yard|SceneRecalled
+L:01 [17:00:01]: UserVisible|Information|System|Event|TimeClockChangedEvent|7|Vacation|Unassigned|EventTriggered
+L:01 [17:00:01]: UserVisible|Information|Lights|Device|SignalChangedEvent|60|Mudroom Door Sconce|Front Yard|13|1
+L:01 [17:16:10]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|178|Basement Rec Room Ceiling|Basement Rec Room|6|900
+L:01 [17:16:14]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|178|Basement Rec Room Ceiling|Basement Rec Room|6|900
+L:01 [17:19:15]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [17:23:16]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [17:29:53]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|168|Main Garage Sensor|Garage|6|1800
+L:01 [17:29:56]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|168|Main Garage Sensor|Garage|6|1800
+L:01 [17:38:00]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [17:44:43]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [18:02:19]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|218|Basement Stair Occ Sense|Basement Rec Room|6|300
+L:01 [18:02:23]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|218|Basement Stair Occ Sense|Basement Rec Room|6|300
+L:01 [18:11:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [18:15:26]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [18:52:37]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [18:55:49]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [19:18:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [19:25:18]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [19:30:13]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [19:33:35]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [20:09:14]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Active|FromDevice|
+L:01 [20:10:03]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [20:14:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [20:27:10]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Inactive|FromDevice|
+L:01 [20:56:43]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [21:00:35]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [21:22:12]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Pressed
+L:01 [21:22:12]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 1|Dummy 1|Rack Room| set to True
+L:01 [21:22:12]: UserVisible|Information|Lights|Scene|SceneChangedEvent|78|Daytime Sconce Motion On|Upstairs Landing|SceneRecalled
+L:01 [21:22:12]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Pressed
+L:01 [21:22:12]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Daytime|Second Floor Motion Daytime|Rack Room| set to True
+L:01 [21:22:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|39321|39321
+L:01 [21:22:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [21:22:12]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [21:22:12]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|39321|39321
+L:01 [21:22:12]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|39321|39321
+L:01 [21:22:12]: UserVisible|Information|Lights|Device|SignalChangedEvent|118|Sconces|Upstairs Landing|13|1
+L:01 [21:22:12]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Held
+L:01 [21:22:12]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Held
+L:01 [21:22:13]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|HeldReleased
+L:01 [21:22:13]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Released
+L:01 [21:22:13]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Daytime|Second Floor Motion Daytime|Rack Room| set to False
+L:01 [21:22:30]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Active|FromDevice|
+L:01 [21:22:37]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [21:22:38]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|OccupancyDetected
+L:01 [21:22:38]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|OccupancyDetected
+L:01 [21:22:41]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [21:22:45]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|0|65535
+L:01 [21:22:45]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|1
+L:01 [21:22:45]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|0|65535
+L:01 [21:22:45]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [21:22:45]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [21:22:45]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [21:22:45]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|1
+L:01 [21:22:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [21:22:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [21:22:46]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [21:22:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [21:22:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [21:22:46]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|15|1
+L:01 [21:22:46]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [21:22:46]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [21:27:23]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|HeldReleased
+L:01 [21:27:23]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Released
+L:01 [21:27:23]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 1|Dummy 1|Rack Room| set to False
+L:01 [21:29:53]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Heat Stage 1|Inactive|FromDevice|
+L:01 [21:38:51]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [21:43:03]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [22:00:13]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Pressed
+L:01 [22:00:14]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Held
+L:01 [22:00:14]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 1|Dummy 1|Rack Room| set to True
+L:01 [22:00:14]: UserVisible|Information|Lights|Scene|SceneChangedEvent|78|Daytime Sconce Motion On|Upstairs Landing|SceneRecalled
+L:01 [22:00:14]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Pressed
+L:01 [22:00:14]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Daytime|Second Floor Motion Daytime|Rack Room| set to True
+L:01 [22:00:14]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Tapped
+L:01 [22:00:14]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Daytime|Rack Room|Second Floor Motion Daytime|Released
+L:01 [22:00:14]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Daytime|Second Floor Motion Daytime|Rack Room| set to False
+L:01 [22:00:14]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [22:00:14]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [22:00:14]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|39321|39321
+L:01 [22:14:46]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Active|FromDevice|
+L:01 [22:19:05]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|HeldReleased
+L:01 [22:19:05]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 1|Rack Room|Dummy 1|Released
+L:01 [22:19:05]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 1|Dummy 1|Rack Room| set to False
+L:01 [22:24:05]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Active|FromDevice|
+L:01 [22:27:57]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Heat Stage 1|Inactive|FromDevice|
+L:01 [22:34:12]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Heat Stage 1|Inactive|FromDevice|
+L:01 [22:37:36]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|0
+L:01 [22:37:36]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|6|0
+L:01 [22:37:36]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|65535
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|5|1
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|6|0
+L:01 [22:37:37]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|0
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|6|0
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [22:37:37]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|18744
+L:01 [22:37:37]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|25|18744|65535
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [22:37:37]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [22:37:38]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|11|1
+L:01 [22:37:38]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|6|48315|65535
+L:01 [22:37:38]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [22:37:38]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [22:37:38]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [22:37:38]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [22:38:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|0
+L:01 [22:38:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|6|0
+L:01 [22:38:08]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [22:38:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|65535
+L:01 [22:38:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|5|1
+L:01 [22:38:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|6|0
+L:01 [22:38:08]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [22:38:08]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [22:38:09]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|35455
+L:01 [22:38:09]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|25|35455|65535
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [22:38:09]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|11|1
+L:01 [22:38:09]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [22:38:09]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [22:38:09]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [22:47:50]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|Pressed
+L:01 [22:47:50]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 2|Dummy 2|Rack Room| set to True
+L:01 [22:47:51]: UserVisible|Information|Lights|Scene|SceneChangedEvent|79|Latenight Sconce Motion On|Upstairs Landing|SceneRecalled
+L:01 [22:47:51]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Latenight|Rack Room|Second Floor Motion Latenight|Pressed
+L:01 [22:47:51]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Latenight|Second Floor Motion Latenight|Rack Room| set to True
+L:01 [22:47:51]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Latenight|Rack Room|Second Floor Motion Latenight|Tapped
+L:01 [22:47:51]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Latenight|Rack Room|Second Floor Motion Latenight|Released
+L:01 [22:47:51]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Latenight|Second Floor Motion Latenight|Rack Room| set to False
+L:01 [22:47:51]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [22:47:51]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [22:47:51]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|13621|13621
+L:01 [22:47:51]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|13621|13621
+L:01 [22:47:51]: UserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|13621|13621
+L:01 [22:47:51]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|Held
+L:01 [22:48:53]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|117|Keypad|Guest Room|0|Pressed
+L:01 [22:48:53]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|117|Keypad|Guest Room|0|Released
+L:01 [22:48:53]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|117|Keypad|Guest Room|0|Tapped
+L:01 [22:48:53]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|117|Keypad|Guest Room|0|Pressed
+L:01 [22:48:53]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|117|Keypad|Guest Room|0|Released
+L:01 [22:48:53]: UserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|150|0|65535
+L:01 [22:48:53]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|117|Keypad|Guest Room|0|DoubleTapped
+L:01 [22:48:53]: UserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|5|262|65535
+L:01 [22:48:53]: UserVisible|Information|Lights|Device|SignalChangedEvent|116|Overhead|Guest Room|13|1
+L:01 [22:48:53]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|-1|65535|65535
+L:01 [22:48:53]: UserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|-1|65535|65535
+L:01 [22:48:53]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|116|Overhead|Guest Room|14|0
+L:01 [22:48:53]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|116|Overhead|Guest Room|15|1
+L:01 [22:48:55]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|170|Guest Room Occ Sensor|Guest Room|6|300
+L:01 [22:48:55]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|29|Guest Room|Guest Room|OccupancyDetected
+L:01 [22:48:55]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|170|Guest Room Occ Sensor|Guest Room|OccupancyDetected
+L:01 [22:48:59]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|170|Guest Room Occ Sensor|Guest Room|6|300
+L:01 [22:52:22]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|173|Occ Sensor|Master Bath|6|1800
+L:01 [22:52:26]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|173|Occ Sensor|Master Bath|6|1800
+L:01 [22:53:55]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|170|Guest Room Occ Sensor|Guest Room|6|300
+L:01 [22:53:55]: UserVisible|Information|Lights|Scene|SceneChangedEvent|52|All Off|Guest Room|SceneRecalled
+L:01 [22:53:55]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|29|Guest Room|Guest Room|VacancyDetected
+L:01 [22:53:55]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|170|Guest Room Occ Sensor|Guest Room|VacancyDetected
+L:01 [22:53:55]: UserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|100|65535|0
+L:01 [22:53:55]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|116|Overhead|Guest Room|14|0
+L:01 [22:53:57]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|-1|0|0
+L:01 [22:53:57]: UserVisible|Information|Lights|Load|LevelChangedEvent|116|Overhead|Guest Room|-1|0|0
+L:01 [22:53:57]: UserVisible|Information|Lights|Device|SignalChangedEvent|116|Overhead|Guest Room|13|0
+L:01 [22:53:59]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|170|Guest Room Occ Sensor|Guest Room|6|300
+L:01 [23:00:03]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Scheduled Setpoints|Heat = 67° Fahrenheit, Cool = 77° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [23:00:04]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|"Sleep" Event|Heat Setpoint 67° Fahrenheit, Cool Setpoint 77° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [23:00:04]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Scheduled Setpoints|Heat = 67° Fahrenheit, Cool = 72° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [23:00:04]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|"Sleep" Event|Heat Setpoint 67° Fahrenheit, Cool Setpoint 72° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [23:00:04]: NotUserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|Scheduled Setpoints|Heat = 67° Fahrenheit, Cool = 77° Fahrenheit, and Auto = 72° Fahrenheit|ToDevice|
+L:01 [23:00:04]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|195|Great Room|Great Room|"Sleep" Event|Heat Setpoint 67° Fahrenheit, Cool Setpoint 77° Fahrenheit, and Auto Setpoint 72° Fahrenheit|ToDevice|
+L:01 [23:03:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|16|65535
+L:01 [23:03:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|5|1
+L:01 [23:03:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|6|0
+L:01 [23:03:57]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|100|65535|0
+L:01 [23:03:57]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|14|0
+L:01 [23:03:58]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|16|65535
+L:01 [23:03:58]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|5|1
+L:01 [23:03:58]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|6|0
+L:01 [23:03:58]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|100|65535|0
+L:01 [23:03:58]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|14|0
+L:01 [23:03:58]: UserVisible|Information|Lights|Device|SignalChangedEvent|137|Overhead|Alex's bedroom|13|0
+L:01 [23:03:58]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|0|0
+L:01 [23:03:58]: UserVisible|Information|Lights|Load|LevelChangedEvent|137|Overhead|Alex's bedroom|-1|0|0
+L:01 [23:03:59]: UserVisible|Information|Lights|Device|SignalChangedEvent|139|Lamp|Alex's bedroom|13|0
+L:01 [23:03:59]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|0|0
+L:01 [23:03:59]: UserVisible|Information|Lights|Load|LevelChangedEvent|139|Lamp|Alex's bedroom|-1|0|0
+L:01 [23:08:56]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|HeldReleased
+L:01 [23:08:56]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|Released
+L:01 [23:08:56]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 2|Dummy 2|Rack Room| set to False
+L:01 [23:25:40]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [23:25:40]: UserVisible|Information|Lights|Scene|SceneChangedEvent|56|All Off|Second Floor Bathroom|SceneRecalled
+L:01 [23:25:40]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|VacancyDetected
+L:01 [23:25:40]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|VacancyDetected
+L:01 [23:25:40]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [23:25:41]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|65535|0
+L:01 [23:25:41]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [23:25:41]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [23:25:41]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [23:25:41]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [23:25:41]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|0|0
+L:01 [23:25:41]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [23:25:42]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [23:25:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|0
+L:01 [23:25:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|0
+L:01 [23:25:44]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [23:38:40]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [23:40:40]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [23:51:39]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|Pressed
+L:01 [23:51:39]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,HE1,Dummy 2|Dummy 2|Rack Room| set to True
+L:01 [23:51:39]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Dummy 2|Rack Room|Dummy 2|Held
+L:01 [23:51:40]: UserVisible|Information|Lights|Scene|SceneChangedEvent|79|Latenight Sconce Motion On|Upstairs Landing|SceneRecalled
+L:01 [23:51:40]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Latenight|Rack Room|Second Floor Motion Latenight|Pressed
+L:01 [23:51:40]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Latenight|Second Floor Motion Latenight|Rack Room| set to True
+L:01 [23:51:40]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Latenight|Rack Room|Second Floor Motion Latenight|Tapped
+L:01 [23:51:40]: UserVisible|Information|Keypad|Device|ButtonChangedEvent|0|Second Floor Motion Latenight|Rack Room|Second Floor Motion Latenight|Released
+L:01 [23:51:40]: UserVisible|Information|Remote|TriggerPyng|RemoteSystemEvent|00:10:7f:2a:5b:b0,1,Master Bed Shades,Second Floor Motion Latenight|Second Floor Motion Latenight|Rack Room| set to False
+L:01 [23:51:40]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|122|Chandelier|Upstairs Landing|-1|0|0
+L:01 [23:51:40]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|120|Overhead|Upstairs Landing|-1|0|0
+L:01 [23:51:40]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|118|Sconces|Upstairs Landing|-1|13621|13621
+L:01 [23:51:43]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [23:51:43]: UserVisible|Information|Auxiliary|Occupancy|OccupancyChangedEvent|30|Second Floor Bathroom|Second Floor Bathroom|OccupancyDetected
+L:01 [23:51:43]: UserVisible|Information|System|Occupancy|OccupancyChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|OccupancyDetected
+L:01 [23:51:46]: NotUserVisible|Information|Auxiliary|Device|SignalChangedEvent|169|Second Floor Bath Occ Sensor|Second Floor Bathroom|6|1800
+L:01 [23:52:19]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [23:53:27]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|70° Fahrenheit|FromDevice|
+L:01 [23:54:55]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|71° Fahrenheit|FromDevice|
+L:01 [23:56:42]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|0|65535
+L:01 [23:56:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|1
+L:01 [23:56:42]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|100|0|65535
+L:01 [23:56:42]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|1
+L:01 [23:56:42]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|4|0
+L:01 [23:56:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|1
+L:01 [23:56:42]: UserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|13|1
+L:01 [23:56:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [23:56:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|15|1
+L:01 [23:56:43]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [23:56:43]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|65535|65535
+L:01 [23:56:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|14|0
+L:01 [23:56:43]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|128|Overhead|Second Floor Bathroom|15|1
+L:01 [23:56:43]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [23:56:43]: UserVisible|Information|Lights|Load|LevelChangedEvent|128|Overhead|Second Floor Bathroom|-1|65535|65535
+L:01 [23:56:55]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|192|Kitchen|Kitchen|Temperature|70° Fahrenheit|FromDevice|
+L:01 [23:58:29]: UserVisible|Information|Climate|Device|SignalChangedEventWithStrings|194|Master Bed|Master Bed|Temperature|71° Fahrenheit|FromDevice|
+L:01 [23:59:24]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|3|0
+L:01 [23:59:24]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|6|0
+L:01 [23:59:24]: UserVisible|Information|Lights|Device|SignalChangedEvent|130|Fan|Second Floor Bathroom|13|0
+L:01 [23:59:24]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|16|65535
+L:01 [23:59:24]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|5|1
+L:01 [23:59:25]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|6|0
+L:01 [23:59:25]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|100|65535|0
+L:01 [23:59:25]: NotUserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|14|0
+L:01 [23:59:25]: UserVisible|Information|Lights|Device|SignalChangedEvent|126|Sink|Second Floor Bathroom|13|0
+L:01 [23:59:26]: NotUserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
+L:01 [23:59:26]: UserVisible|Information|Lights|Load|LevelChangedEvent|126|Sink|Second Floor Bathroom|-1|0|0
