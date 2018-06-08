@@ -1,4 +1,4 @@
 processed_data/
 .ipynb_checkpoints/
 checkpoints/*.csv
-
+.DS_Store
