@@ -49,4 +49,4 @@ def normalize_data(float_data):
     float_data -= mean
     std = float_data.std(axis=0)
     float_data /= std
-    return float_data
+    return float_da
