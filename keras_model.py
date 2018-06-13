@@ -1,11 +1,17 @@
+import json
+import os
+import os.path
+
+import h5py
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import h5py
-
-from matplotlib import pyplot as plt
-from keras.models import Sequential
-from keras import layers
+import requests
+from keras.layers import GRU, Dense, Flatten
+from keras.models import Sequential, load_model
 from keras.optimizers import RMSprop
+from numpy import nan
+from sklearn import preprocessing
 
 
 def get_test_data():
@@ -115,14 +121,28 @@ def get_model(float_data):
     model = Sequential()
     model.add(layers.GRU(32,
                         dropout=0.1,
-                        recurrent_dropout=0.5,
+                        recurrent_dropout=0.3,
                         return_sequences=True,
                         input_shape=(None, float_data.shape[-1])))
     model.add(layers.GRU(64, activation='relu',
                         dropout=0.1, 
-                        recurrent_dropout=0.5))
-    model.add(layers.Dense(float_data.shape[-1])
+                        recurrent_dropout=0.3))
+    model.add(layers.Dense(float_data.shape[-1]))
     return model 
+
+
+def save_model(model, base_name):
+    # Save the weights
+    weights = base_name + '_weights.h5'
+    model.save_weights(weights)
+
+    # Save the model architecture
+    arc_name = base_name + '_arc.h5'
+    with open(arc_name, 'w') as f:
+        f.write(model.to_json())
+    
+    # Save the model itself
+    model.save(base_name + '_model.h5')
 
 
 def train_model_test(model_save_name):
@@ -137,7 +157,8 @@ def train_model_test(model_save_name):
                                 epochs=30,
                                 validation_data=val_gen,
                                 validation_steps=val_steps)
-    model.save(model_save_name)
+    save_model(model, model_save_name)
+    plot(history)
     return history
 
 
@@ -153,9 +174,21 @@ def train_model_full(model_save_name):
                                 epochs=30,
                                 validation_data=val_gen,
                                 validation_steps=val_steps)
-    model.save(model_save_name)
+    save_model(model, model_save_name)
+    plot(history)
     return history
 
 
+def plot(history):
+    loss = history.history['loss']
+    val_loss = history.history['val_loss']
+    epochs = range(len(loss))
+    plt.figure()
+    plt.plot(epochs, loss, 'bo', label='Training loss')
+    plt.plot(epochs, val_loss, 'b', label='Validation loss')
+    plt.title('Training and validation loss')
+    plt.legend()
+    plt.show()
 
-train_model_full("two_GRU_test.h5")
+
+train_model_full("two_GRU_test")
