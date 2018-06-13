@@ -13,6 +13,11 @@ def get_test_data():
     return df.values
 
 
+def get_full_data():
+    df = pd.read_hdf('./checkpoints/state_data_full.h5','table')
+    return df.values
+
+
 # Coppied from Deep Learning with Python by Francois Chollet
 def generator(data, lookback, delay, min_index, max_index,
               shuffle=False, batch_size=128, step=6):
@@ -47,11 +52,11 @@ def generator(data, lookback, delay, min_index, max_index,
         samples = np.zeros((len(rows),
                            lookback // step,
                            data.shape[-1]))
-        targets = np.zeros((len(rows),))
+        targets = np.zeros((len(rows), data.shape[-1]))
         for j, row in enumerate(rows):
             indices = range(rows[j] - lookback, rows[j], step)
             samples[j] = data[indices]
-            targets[j] = data[rows[j] + delay][1]
+            targets[j] = data[rows[j] + delay]
         yield samples, targets
 
 
@@ -70,7 +75,7 @@ def get_train_test_val(float_data):
 
     lookback = 10080    # 1 week in minutes
     step = 1   
-    delay = 1440        # 1 day in minutes
+    delay = 240        # 1 day in minutes
     batch_size = 128
 
     train_gen = generator(float_data,
@@ -91,7 +96,7 @@ def get_train_test_val(float_data):
                         lookback=lookback,
                         delay=delay,
                         min_index=test_index + 1,
-                        max_index=len(float_data),
+                        max_index=None,
                         step=step,
                         batch_size=batch_size)
 
@@ -116,19 +121,41 @@ def get_model(float_data):
     model.add(layers.GRU(64, activation='relu',
                         dropout=0.1, 
                         recurrent_dropout=0.5))
-    model.add(layers.Dense(len(float_data)))
+    model.add(layers.Dense(float_data.shape[-1])
     return model 
 
 
-def train_model():
+def train_model_test(model_save_name):
     float_data = get_test_data()
     float_data = normalize_data(float_data)
     train_gen, val_gen, test_gen, val_steps, test_steps = get_train_test_val(float_data)
     model = get_model(float_data)
 
-    model.compile(optimizer=RMSprop(), loss='mae')
+    model.compile(optimizer=RMSprop(), loss='mae', metrics=['mae', 'acc'])
     history = model.fit_generator(train_gen,
                                 steps_per_epoch=500,
-                                epochs=40,
+                                epochs=30,
                                 validation_data=val_gen,
                                 validation_steps=val_steps)
+    model.save(model_save_name)
+    return history
+
+
+def train_model_full(model_save_name):
+    float_data = get_full_data()
+    float_data = normalize_data(float_data)
+    train_gen, val_gen, test_gen, val_steps, test_steps = get_train_test_val(float_data)
+    model = get_model(float_data)
+
+    model.compile(optimizer=RMSprop(), loss='mae', metrics=['mae', 'acc'])
+    history = model.fit_generator(train_gen,
+                                steps_per_epoch=500,
+                                epochs=30,
+                                validation_data=val_gen,
+                                validation_steps=val_steps)
+    model.save(model_save_name)
+    return history
+
+
+
+train_model_full("two_GRU_test.h5")
