@@ -1,5 +1,17 @@
-from keras import Input, layers
 import numpy as np
+import pandas as pd
+import h5py
+
+from matplotlib import pyplot as plt
+from keras.models import Sequential
+from keras import layers
+from keras.optimizers import RMSprop
+
+
+def get_test_data():
+    df = pd.read_hdf('./checkpoints/data_test.h5','table')
+    return df.values
+
 
 # Coppied from Deep Learning with Python by Francois Chollet
 def generator(data, lookback, delay, min_index, max_index,
@@ -49,4 +61,74 @@ def normalize_data(float_data):
     float_data -= mean
     std = float_data.std(axis=0)
     float_data /= std
-    return float_da
+    return float_data
+
+
+def get_train_test_val(float_data):
+    train_index = int(len(float_data)*(.5))
+    test_index = train_index + int(len(float_data)*(.25))
+
+    lookback = 10080    # 1 week in minutes
+    step = 1   
+    delay = 1440        # 1 day in minutes
+    batch_size = 128
+
+    train_gen = generator(float_data,
+                        lookback=lookback,
+                        delay=delay,
+                        min_index=0,
+                        max_index=train_index,
+                        step=step, 
+                        batch_size=batch_size)
+    val_gen = generator(float_data,
+                        lookback=lookback,
+                        delay=delay,
+                        min_index=train_index + 1,
+                        max_index=test_index,
+                        step=step,
+                        batch_size=batch_size)
+    test_gen = generator(float_data,
+                        lookback=lookback,
+                        delay=delay,
+                        min_index=test_index + 1,
+                        max_index=len(float_data),
+                        step=step,
+                        batch_size=batch_size)
+
+    # This is how many steps to draw from `val_gen`
+    # in order to see the whole validation set:
+    val_steps = (test_index - (train_index + 1) - lookback) // batch_size
+
+    # This is how many steps to draw from `test_gen`
+    # in order to see the whole test set:
+    test_steps = (len(float_data) - (test_index + 1) - lookback) // batch_size
+
+    return train_gen, val_gen, test_gen, val_steps, test_steps
+
+
+def get_model(float_data):
+    model = Sequential()
+    model.add(layers.GRU(32,
+                        dropout=0.1,
+                        recurrent_dropout=0.5,
+                        return_sequences=True,
+                        input_shape=(None, float_data.shape[-1])))
+    model.add(layers.GRU(64, activation='relu',
+                        dropout=0.1, 
+                        recurrent_dropout=0.5))
+    model.add(layers.Dense(len(float_data)))
+    return model 
+
+
+def train_model():
+    float_data = get_test_data()
+    float_data = normalize_data(float_data)
+    train_gen, val_gen, test_gen, val_steps, test_steps = get_train_test_val(float_data)
+    model = get_model(float_data)
+
+    model.compile(optimizer=RMSprop(), loss='mae')
+    history = model.fit_generator(train_gen,
+                                steps_per_epoch=500,
+                                epochs=40,
+                                validation_data=val_gen,
+                                validation_steps=val_steps)
