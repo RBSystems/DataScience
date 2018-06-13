@@ -163,20 +163,21 @@ def train_model_test(model_save_name):
 
 
 def train_model_full(model_save_name):
+    import pdb; pdb.set_trace()
     float_data = get_full_data()
     float_data = normalize_data(float_data)
     train_gen, val_gen, test_gen, val_steps, test_steps = get_train_test_val(float_data)
     model = get_model(float_data)
 
-    model.compile(optimizer=RMSprop(), loss='mae', metrics=['mae', 'acc'])
-    history = model.fit_generator(train_gen,
-                                steps_per_epoch=500,
-                                epochs=30,
-                                validation_data=val_gen,
-                                validation_steps=val_steps)
-    save_model(model, model_save_name)
-    plot(history)
-    return history
+    # model.compile(optimizer=RMSprop(), loss='mae', metrics=['mae', 'acc'])
+    # history = model.fit_generator(train_gen,
+    #                             steps_per_epoch=500,
+    #                             epochs=30,
+    #                             validation_data=val_gen,
+    #                             validation_steps=val_steps)
+    # save_model(model, model_save_name)
+    # plot(history)
+    # return history
 
 
 def plot(history):
@@ -191,4 +192,4 @@ def plot(history):
     plt.show()
 
 
-train_model_full("two_GRU_test")
+train_model_full("two_GRU_full")
