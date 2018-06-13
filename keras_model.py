@@ -119,15 +119,15 @@ def get_train_test_val(float_data):
 
 def get_model(float_data):
     model = Sequential()
-    model.add(layers.GRU(32,
+    model.add(GRU(32,
                         dropout=0.1,
                         recurrent_dropout=0.3,
                         return_sequences=True,
                         input_shape=(None, float_data.shape[-1])))
-    model.add(layers.GRU(64, activation='relu',
+    model.add(GRU(64, activation='relu',
                         dropout=0.1, 
                         recurrent_dropout=0.3))
-    model.add(layers.Dense(float_data.shape[-1]))
+    model.add(Dense(float_data.shape[-1]))
     return model 
 
 
