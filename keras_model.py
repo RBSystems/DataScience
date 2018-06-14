@@ -1,6 +1,8 @@
 import json
 import os
 import os.path
+import time
+import warnings
 
 import h5py
 import matplotlib.pyplot as plt
@@ -10,17 +12,26 @@ import requests
 from keras.layers import GRU, Dense, Flatten
 from keras.models import Sequential, load_model
 from keras.optimizers import RMSprop
+from keras.callbacks import EarlyStopping, ModelCheckpoint
 from numpy import nan
 from sklearn import preprocessing
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' #Hide messy TensorFlow warnings
+warnings.filterwarnings("ignore") #Hide messy Numpy warnings
+
 
 def get_test_data():
-    df = pd.read_hdf('./checkpoints/data_test.h5','table')
+    df = pd.read_hdf('./checkpoints/data_test_normalized.h5','table')
     return df.values
 
 
 def get_full_data():
-    df = pd.read_hdf('./checkpoints/state_data_full.h5','table')
+    df = pd.read_hdf('./checkpoints/state_data_full_normalized.h5','table')
+    return df.values
+
+
+def get_truncated_data():
+    df = pd.read_hdf('./checkpoints/state_data_truncated_normalized.h5','table')
     return df.values
 
 
@@ -75,14 +86,9 @@ def normalize_data(float_data):
     return float_data
 
 
-def get_train_test_val(float_data):
+def get_train_test_val(float_data, lookback, step, delay, batch_size):
     train_index = int(len(float_data)*(.5))
     test_index = train_index + int(len(float_data)*(.25))
-
-    lookback = 10080    # 1 week in minutes
-    step = 1   
-    delay = 240        # 1 day in minutes
-    batch_size = 128
 
     train_gen = generator(float_data,
                         lookback=lookback,
@@ -119,8 +125,7 @@ def get_train_test_val(float_data):
 
 def get_model(float_data):
     model = Sequential()
-    model.add(GRU(32,
-                        dropout=0.1,
+    model.add(GRU(32, dropout=0.1,
                         recurrent_dropout=0.3,
                         return_sequences=True,
                         input_shape=(None, float_data.shape[-1])))
@@ -147,40 +152,61 @@ def save_model(model, base_name):
 
 def train_model_test(model_save_name):
     float_data = get_test_data()
-    float_data = normalize_data(float_data)
-    train_gen, val_gen, test_gen, val_steps, test_steps = get_train_test_val(float_data)
-    model = get_model(float_data)
 
-    model.compile(optimizer=RMSprop(), loss='mae', metrics=['mae', 'acc'])
-    history = model.fit_generator(train_gen,
-                                steps_per_epoch=500,
-                                epochs=30,
-                                validation_data=val_gen,
-                                validation_steps=val_steps)
-    save_model(model, model_save_name)
-    plot(history)
-    return history
+    lookback = 10080    # 1 week in minutes
+    step = 1   
+    delay = 240        # 2 hours in minutes
+    batch_size = 128
+
+    train_model(model_save_name, float_data, lookback, step, delay, batch_size)
 
 
 def train_model_full(model_save_name):
     float_data = get_full_data()
-    float_data = normalize_data(float_data)
-    train_gen, val_gen, test_gen, val_steps, test_steps = get_train_test_val(float_data)
+
+    lookback = 1440    # 1 week in minutes
+    step = 1   
+    delay = 240        # 2 hours in minutes
+    batch_size = 128
+
+    train_model(model_save_name, float_data, lookback, step, delay, batch_size)
+
+
+def train_model_truncated(model_save_name):
+    float_data = get_truncated_data()
+
+    lookback = 1008    # 1 week in 10 minutes
+    step = 1           # 10 mins
+    delay = 144        # 2 hours in minutes
+    batch_size = 128
+
+    train_model(model_save_name, float_data, lookback, step, delay, batch_size)
+
+
+
+def train_model(model_save_name, float_data, lookback, step, delay, batch_size):
+    train_gen, val_gen, test_gen, val_steps, test_steps = get_train_test_val(float_data, lookback, step, delay, batch_size)
     model = get_model(float_data)
     print("loaded model")
 
     model.compile(optimizer=RMSprop(), loss='mae', metrics=['mae', 'acc'])
+    save_name = model_save_name + '_auto.h5'
+    earlystop = EarlyStopping(monitor='val_acc', min_delta=0.0001, patience=5, mode='auto')
+    checkpoint = ModelCheckpoint(filepath=save_name, monitor='val_loss',save_best_only=True)
+    callbacks_list = [earlystop, checkpoint]
     history = model.fit_generator(train_gen,
                                 steps_per_epoch=500,
-                                epochs=30,
+                                epochs=40,
+                                callbacks=callbacks_list,
                                 validation_data=val_gen,
                                 validation_steps=val_steps)
     save_model(model, model_save_name)
-    plot(history)
-    return history
+    scores = model.evaluate_generator(test_gen, steps=test_steps)
+    print("Accuracy = ", scores)
+    plot(history, model_save_name)
 
 
-def plot(history):
+def plot(history, model_save_name):
     loss = history.history['loss']
     val_loss = history.history['val_loss']
     epochs = range(len(loss))
@@ -189,7 +215,10 @@ def plot(history):
     plt.plot(epochs, val_loss, 'b', label='Validation loss')
     plt.title('Training and validation loss')
     plt.legend()
-    plt.show()
+    name = model_save_name + '_fig.png'
+    plt.savefig(name)
 
 
-train_model_full("two_GRU_full")
+train_model_truncated("two_GRU_trunc")
+
+train_model_test("two_GRU_test")
